@@ -1,3 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
 body{
+  font-family: 'Gloria Hallelujah', cursive;
   background-color: red;
+}
+
+table{
+  background-color: yellow;
+  padding: 20px;
+}
+
+tr{
+  padding: 10px;
 }

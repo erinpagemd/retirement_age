@@ -2,11 +2,46 @@
 <html>
   <head>
     <meta charset='utf-8'>
-    <title>Title for the page</title>
+    <title>Retirement Age Calculator</title>
     <link rel='stylesheet' href='css/style.css'>
   </head>
   <body>
-    
+    <header>
+      <h1>Retirement Age Calculator</h1>
+    </header>
+
+    <form>
+      <h3>Date of Birth <input type='date'>
+      <input type='button' value='submit'>
+      </h3>
+    </form>
+
+    <table id='early'>
+      <tr>
+        <td>Date for early retirement</td>
+        <td><input type='text'></td>
+      </tr>
+      <tr>
+        <td>links for information about retirement at age 62</td>
+      </tr>
+      <tr>
+        <td>Info for retirement at age 62</td>
+      </tr>
+    </table>
+
+    <table id='full'>
+      <tr>
+        <td>Date for regular retirement</td>
+        <td><input type='text' name='bday'></td>
+      </tr>
+      <tr>
+        <td>links for information about benefits at full retirement age</td>
+      </tr>
+      <tr>
+        <td>Info for benefits at full retirement age</td>
+      </tr>
+    </table>
+
     <script src='js/jquery-2.1.1.min.js'></script>
     <script src='js/main.js'></script>
   </body>
