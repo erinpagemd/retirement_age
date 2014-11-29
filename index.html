@@ -11,14 +11,14 @@
     </header>
 
     <form>
-      <h3>Date of Birth <input type='date'>
-      <input type='button' value='submit'>
+      <h3>Date of Birth <input type='date' id='bday'/>
+      <input type='button' id='submit' value='submit'>
       </h3>
     </form>
 
     <table id='early'>
       <tr>
-        <td>Date for early retirement</td>
+        <td>Date for early retirement (age: 62 years)</td>
         <td><input type='text'></td>
       </tr>
       <tr>
@@ -31,8 +31,8 @@
 
     <table id='full'>
       <tr>
-        <td>Date for regular retirement</td>
-        <td><input type='text' name='bday'></td>
+        <td>Date for regular retirement (age: <span id='regAge'></span>)</td>
+        <td><input type='text'></td>
       </tr>
       <tr>
         <td>links for information about benefits at full retirement age</td>
